@@ -1,0 +1,115 @@
+@import '~styles/include/flexbox';
+
+.page {
+  min-width: 900px;
+}
+
+.login-page {
+  .ant-input-group-addon {
+    background: none!important;
+  }
+
+  .login-form {
+    .ant-input-group-wrapper {
+      width: 100%;
+    }
+  }
+
+  .ant-input-wrapper{
+    display: table!important;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .logo {
+    width: 142px;
+    height: 38px;
+    margin: 12px 33px 12px;
+  }
+
+  .title {
+    font-size: 18px;
+    color: #666666;
+    letter-spacing: 0;
+    margin-bottom: 14px;
+    font-weight: 300;
+  }
+
+  .login-form, .register-form {
+    position: absolute;
+    top: 38%;
+    right: 150px;
+    margin-top: -137px;
+    // height: 274px;
+    width: 349px;
+    background-color: #FFFFFF;
+    padding: 24px 28px;
+    border: 1px solid #E2E8F0;
+    border-radius: 4px;
+  }
+
+  .login-form-forgot {
+    float: right;
+  }
+
+  .login-form-button, .register-form-button {
+    width: 100%;
+  }
+
+  .user, .password {
+    font-size: 21px;
+    color: #B4C3D9;
+  }
+
+  .input {
+    height:40px;
+  }
+
+  .login-form-button {
+    background: #548EDF;
+    border-radius: 4px;
+  }
+
+  .footer {
+    font-size: 14px;
+    color: #3C404D;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 24px;
+  }
+
+  .errMsg {
+    width: 265px;
+    height: 28px;
+    background: #FFEEF1;
+    border: 1px solid #FF1F4C;
+    border-radius: 4px;
+    margin-bottom: 7px;
+    padding: 5px;
+  }
+
+  .ant-layout-content {
+    .flex-align-self(center);
+
+    position: relative;
+    width: 100%;
+    min-height: 450px;
+    min-width: 1000px;
+  }
+
+  .ant-layout-footer {
+    text-align: center;
+  }
+
+  .anticon{
+    font-size: 20px;
+  }
+
+  .ant-form-explain{
+    margin-top: 10px;
+  }
+
+}

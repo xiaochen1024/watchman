@@ -1,0 +1,56 @@
+@import "~styles/include/flexbox";
+@import "~styles/components/dashboard/Dashboard";
+
+.page-main {
+  max-height: 100%;
+  overflow-y: hidden;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+  .logo {
+    height: 66px;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    div {
+      background: gray;
+      border-radius: 8px;
+      color: #fff;
+    }
+  }
+
+  .header {
+    padding: 0 20px;
+    background: #fff;
+
+    .title {
+      float: left;
+      font-weight: 500;
+    }
+
+    .user {
+      .flex-block();
+      .flex-align-self(center);
+      .flex-align-items(center);
+      float: right;
+
+      .ant-avatar {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .ant-layout-content {
+    padding: 10px;
+  }
+
+  .menuItem {
+    .flex-block();
+    .flex-align-items(center);
+  }
+
+  .ant-menu-submenu-selected {
+    background-color: #1890ff !important;
+  }
+}

@@ -1,0 +1,17 @@
+root = ture
+
+[*]
+charset = utf-8
+end_of_file = lf
+insert_final_newline = false
+trim_trailing_whitespace = true
+indent_style = space
+
+[*.{js,jsx,es6}]
+indent_size = 2
+
+[*.{scss,less}]
+indent_size = 2
+
+[{*.{json,yml}}]
+indent_size = 2
